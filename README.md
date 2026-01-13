@@ -9,9 +9,6 @@ The application allows users to browse image galleries, authenticate securely, a
 
 Tran Minh Chau DO
 
-Léa DRION
-
-
 ## Main Features
 
 - Dynamic display of image galleries  
