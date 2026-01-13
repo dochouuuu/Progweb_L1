@@ -1,0 +1,12 @@
+SELECT * FROM images; 
+SELECT * FROM images ORDER BY date; 
+SELECT * FROM images ORDER BY date LIMIT 3; 
+SELECT * FROM images WHERE date > '2022-01-01'; 
+SELECT * FROM images WHERE likes > '10'; 
+SELECT * FROM images JOIN orientations ON images.orientation = orientations.id WHERE orientations.nom = 'portrait'; 
+SELECT * FROM images JOIN orientations ON images.orientation = orientations.id WHERE orientations.nom = 'paysage'; 
+SELECT * FROM images WHERE id_auteur = (SELECT id FROM auteurs WHERE nom = 'Duchamp' AND prenom = 'Marcel');
+SELECT * FROM images JOIN orientations ON images.orientation = orientations.id WHERE orientations.nom = 'portrait' AND id_auteur = (SELECT id FROM auteurs WHERE nom = 'Duchamp' AND prenom = 'Marcel');
+SELECT SUM(likes) FROM images WHERE id_auteur = (SELECT id FROM auteurs WHERE nom = 'Duchamp' AND prenom = 'Marcel');
+SELECT * FROM commentaires WHERE commentaires.id_image = '28'; 
+SELECT * FROM images WHERE likes = (SELECT MAX(likes) FROM images);
