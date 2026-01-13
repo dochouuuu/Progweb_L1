@@ -6,13 +6,13 @@ This project involves the **development of a full-stack web application for disp
 
 The application allows users to browse image galleries, authenticate securely, and interact through a dynamic commenting system.
 
----
+
 ## Author
 
 Tran Minh Chau DO
+
 Léa DRION
 
----
 
 ## Main Features
 
@@ -23,7 +23,6 @@ Léa DRION
 - Handling of HTTP requests (GET / POST)  
 - Data persistence using a relational database  
 
----
 
 ## Architecture
 
@@ -42,8 +41,6 @@ The application follows a **full-stack architecture**, including:
   - Storage of users  
   - Image and comment data  
   - Relational links between entities  
-
----
 
 ## Technologies Used
 
