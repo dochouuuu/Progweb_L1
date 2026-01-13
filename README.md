@@ -10,4 +10,4 @@ This branch serves as a **reference snapshot** of the project’s early state an
 
 ## Authors
 
-- Tran Minh Chau  
+- Tran Minh Chau DO
